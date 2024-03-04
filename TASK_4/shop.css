@@ -1,0 +1,128 @@
+.header {
+    background: black;
+    color: white;
+}
+
+.container-fluid a {
+    color: white;
+    padding: 15px;
+    font-weight: 500;
+}
+
+.container-fluid a:hover {
+    color: red;
+    scale: 120%;
+
+}
+
+.bar {
+    color: #ff4955;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+    gap: 40px;
+}
+
+/*header*/
+.section {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+    background-color: black;
+    background-image: none;
+}
+
+.ct-breadcrumbs {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.page-title {
+    font-size: 6rem;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    padding: 0;
+    border: none;
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+}
+/*cards*/
+.card-container{
+    background: black;
+    color: #fff;
+    padding: 70px;
+}
+.card-title{
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'League Gothic', sans-serif;
+}
+.card-text{
+    margin-top: 20px;
+    color: gray;
+}
+.cards{
+    margin-top: 30px;
+}
+/*footer*/
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    color: #fff;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
